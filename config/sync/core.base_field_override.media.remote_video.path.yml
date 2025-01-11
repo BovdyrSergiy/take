@@ -1,0 +1,20 @@
+uuid: f89907b2-71f5-4ec8-a7c0-852dac98eec6
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+  module:
+    - path
+id: media.remote_video.path
+field_name: path
+entity_type: media
+bundle: remote_video
+label: 'URL синоними'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

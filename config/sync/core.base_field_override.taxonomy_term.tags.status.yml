@@ -1,0 +1,22 @@
+uuid: e44d376f-22f9-4fed-9100-30fe33a2b727
+langcode: bg
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tags
+label: Публикувано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

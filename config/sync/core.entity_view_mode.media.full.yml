@@ -1,0 +1,13 @@
+uuid: cad69d63-e14d-4d87-bfda-e1631dccdf93
+langcode: bg
+status: false
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: dTfAUHooYV0uOVPO3saGpgv-c5PppJXDwxvwRTJOycM
+id: media.full
+label: 'Пълно съдържание'
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,13 @@
+uuid: 09c363d6-a243-4f9f-83f7-67b462afee90
+langcode: bg
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
+id: comment_unpublish_action
+label: 'Премахни коментар'
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

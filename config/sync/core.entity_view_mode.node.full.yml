@@ -1,0 +1,13 @@
+uuid: db93753c-ecae-4cfb-b875-61239efda123
+langcode: bg
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QJ2aZ1xfVf59aq6Pz5X7fyUOa2HxuCoTwQ_RQjoulAU
+id: node.full
+label: 'Пълно съдържание'
+description: ''
+targetEntityType: node
+cache: true

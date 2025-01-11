@@ -1,0 +1,8 @@
+# Schema for the configuration files of the takebropro theme.
+takebropro.settings:
+  type: theme_settings
+  label: 'takebropro settings'
+  mapping:
+    example:
+      type: string
+      label: Example

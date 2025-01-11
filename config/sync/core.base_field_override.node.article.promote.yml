@@ -1,0 +1,22 @@
+uuid: a1f5bd56-2e46-4687-b43e-57a204a4192f
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.promote
+field_name: promote
+entity_type: node
+bundle: article
+label: 'Публикувано на първа страница'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

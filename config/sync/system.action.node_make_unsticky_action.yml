@@ -1,0 +1,13 @@
+uuid: 56d3eaab-2566-42b3-b002-76b93fbc9e4b
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+id: node_make_unsticky_action
+label: 'Отмени  публикуването на съдържанието в началото на сипсъка'
+type: node
+plugin: node_make_unsticky_action
+configuration: {  }

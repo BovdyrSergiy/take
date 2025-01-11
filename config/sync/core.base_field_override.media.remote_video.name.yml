@@ -1,0 +1,20 @@
+uuid: 0cb4e865-cf11-4b64-bcd5-b932387e8f83
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.name
+field_name: name
+entity_type: media
+bundle: remote_video
+label: Име
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

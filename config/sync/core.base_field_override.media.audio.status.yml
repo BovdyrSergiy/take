@@ -1,0 +1,22 @@
+uuid: 1e4b922d-613c-4d8e-b8d6-483315bf9419
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.status
+field_name: status
+entity_type: media
+bundle: audio
+label: Публикувано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

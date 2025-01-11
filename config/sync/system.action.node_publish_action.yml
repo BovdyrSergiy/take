@@ -1,0 +1,13 @@
+uuid: afd9f7b9-7d8a-41f5-951b-7d0cd71ead25
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Публикувай съдържание'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

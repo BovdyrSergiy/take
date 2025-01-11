@@ -1,0 +1,20 @@
+uuid: 1f4f1884-2c94-4843-8b60-2a287956db93
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.name
+field_name: name
+entity_type: media
+bundle: audio
+label: Име
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

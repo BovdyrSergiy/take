@@ -1,0 +1,13 @@
+uuid: aa5b6960-4a5f-40c2-b8a7-dfb1dd6305a8
+langcode: bg
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: CsK6TseQ2DatEbZgbd30swOlZ28_HHwAESU2LvEnWq0
+id: media_unpublish_action
+label: 'Unpublish media'
+type: media
+plugin: 'entity:unpublish_action:media'
+configuration: {  }

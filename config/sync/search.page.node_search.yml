@@ -1,0 +1,15 @@
+uuid: 73f426b9-64be-40d0-bf4f-5ff457415bf3
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
+id: node_search
+label: Съдържание
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

@@ -1,0 +1,22 @@
+uuid: f36478f6-bfc5-4d99-8330-9c6a2669b2b9
+langcode: bg
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic.status
+field_name: status
+entity_type: block_content
+bundle: basic
+label: Публикувано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: a517d0b4-3771-4644-813a-56e8e4aa8d0a
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+  module:
+    - metatag
+id: media.remote_video.metatag
+field_name: metatag
+entity_type: media
+bundle: remote_video
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

@@ -1,0 +1,20 @@
+uuid: 038ef223-5a0d-4f7e-af56-b20126cd3f7b
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.audio
+  module:
+    - path
+id: media.audio.path
+field_name: path
+entity_type: media
+bundle: audio
+label: 'URL синоними'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

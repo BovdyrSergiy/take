@@ -1,0 +1,22 @@
+uuid: 2df081dc-aa12-405f-88e6-61733c7ef5ce
+langcode: bg
+status: true
+dependencies:
+  theme:
+    - takebropro
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: takebropro_primary_local_tasks
+theme: takebropro
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

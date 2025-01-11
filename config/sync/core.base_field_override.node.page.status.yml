@@ -1,0 +1,22 @@
+uuid: 80102dbf-0fd9-4324-bfed-e74a6f3316e5
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.status
+field_name: status
+entity_type: node
+bundle: page
+label: Публикувано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

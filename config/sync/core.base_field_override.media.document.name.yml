@@ -1,0 +1,20 @@
+uuid: 8eae6f60-c04c-4b7b-bfc2-e5a2bf732c20
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Име
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

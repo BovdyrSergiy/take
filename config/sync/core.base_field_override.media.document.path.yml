@@ -1,0 +1,20 @@
+uuid: 43adecd3-9041-440a-97ba-3af9559aef08
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.document
+  module:
+    - path
+id: media.document.path
+field_name: path
+entity_type: media
+bundle: document
+label: 'URL синоними'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,13 @@
+uuid: 0c28ffe0-e457-4917-b50d-2f780e0dcd58
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Постави съдържанието на началната страница'
+type: node
+plugin: node_promote_action
+configuration: {  }

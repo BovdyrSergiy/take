@@ -1,0 +1,13 @@
+uuid: d7a3edf5-c786-4577-838b-d50052f48347
+langcode: bg
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Лична форма за връзка'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Вашето съобщение беше изпратено.'
+redirect: ''

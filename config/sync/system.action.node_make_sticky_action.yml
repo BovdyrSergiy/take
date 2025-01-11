@@ -1,0 +1,13 @@
+uuid: 474c14e7-84bf-4307-abde-960889fd375d
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Постави съдържанието в началото на сипсъка'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

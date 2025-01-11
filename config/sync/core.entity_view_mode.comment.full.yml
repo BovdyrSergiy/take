@@ -1,0 +1,13 @@
+uuid: a9fdbe80-b57b-4def-8479-e54a04ce0e7b
+langcode: bg
+status: false
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: N4mUjXpPckUkVRY1PbKw4GGoL1i2ECU7PL3EreiKStk
+id: comment.full
+label: 'Пълен коментар'
+description: ''
+targetEntityType: comment
+cache: true

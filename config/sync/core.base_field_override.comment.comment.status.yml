@@ -1,0 +1,22 @@
+uuid: 4aa94c51-8126-40a6-98f5-9c11974c0f87
+langcode: bg
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.status
+field_name: status
+entity_type: comment
+bundle: comment
+label: Публикувано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: Включи
+  off_label: Изключи
+field_type: boolean

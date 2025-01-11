@@ -1,0 +1,12 @@
+uuid: 5acda90c-add1-4f68-a3ff-b5a6ac4e3031
+langcode: bg
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+id: user
+label: Потребител
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  title: '[user:display-name] | [site:name]'

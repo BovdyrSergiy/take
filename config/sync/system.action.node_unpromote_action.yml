@@ -1,0 +1,13 @@
+uuid: a14dc158-8db7-43fd-9d20-e2447055070d
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Премахни съдържанието от началната страница'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

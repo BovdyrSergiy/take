@@ -1,0 +1,22 @@
+uuid: 965916de-2018-4f8e-9c31-0834f3c2a31e
+langcode: bg
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - takebropro
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: takebropro_help
+theme: takebropro
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  label_display: '0'
+  provider: help
+visibility: {  }

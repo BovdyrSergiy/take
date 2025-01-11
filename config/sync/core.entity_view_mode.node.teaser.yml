@@ -1,0 +1,13 @@
+uuid: 54c143c2-e185-4d4d-9c94-99fe096e4a96
+langcode: bg
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: KgGJDZFpMaz_8bTv6fN1bXS3Qi5LWmRJI9R53kEGsNQ
+id: node.teaser
+label: Резюме
+description: ''
+targetEntityType: node
+cache: true

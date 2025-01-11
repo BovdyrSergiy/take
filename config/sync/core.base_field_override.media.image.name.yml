@@ -1,0 +1,20 @@
+uuid: 31f22038-e1a9-42f0-8dbd-c5f2809500e5
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.name
+field_name: name
+entity_type: media
+bundle: image
+label: Име
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

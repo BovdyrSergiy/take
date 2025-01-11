@@ -1,0 +1,23 @@
+uuid: 0ae952c7-2cc9-4398-b74c-d3017d1331be
+langcode: bg
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - takebropro
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: takebropro_search_form_wide
+theme: takebropro
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

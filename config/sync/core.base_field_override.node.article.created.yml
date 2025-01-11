@@ -1,0 +1,18 @@
+uuid: 2eb9a775-a5ec-4551-b69b-a570169f7621
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.created
+field_name: created
+entity_type: node
+bundle: article
+label: 'Написано на'
+description: 'The date and time that the content was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

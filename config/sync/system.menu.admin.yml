@@ -1,0 +1,10 @@
+uuid: 694a2fda-84d4-435b-aeef-3915ce89a569
+langcode: bg
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Администриране
+description: 'Administrative task links'
+locked: true

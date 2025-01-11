@@ -1,0 +1,20 @@
+uuid: 6ed329c3-fb54-4c1e-9591-9c45112f564b
+langcode: bg
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - path
+id: node.page.path
+field_name: path
+entity_type: node
+bundle: page
+label: 'URL синоними'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

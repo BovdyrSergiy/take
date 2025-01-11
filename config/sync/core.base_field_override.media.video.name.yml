@@ -1,0 +1,20 @@
+uuid: 365651e3-6abd-486c-ba69-b52875f27c4f
+langcode: bg
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: Име
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string
