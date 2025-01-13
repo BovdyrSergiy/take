@@ -1,0 +1,20 @@
+uuid: 313c507e-55ba-4f6d-9b86-269e7ba72821
+langcode: en
+status: true
+dependencies:
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: takebropro_bootstrap_primary_admin_actions
+theme: takebropro_bootstrap
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

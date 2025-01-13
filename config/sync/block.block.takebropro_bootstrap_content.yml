@@ -1,0 +1,22 @@
+uuid: 218be822-9b0e-4db4-994d-3439589a29f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: takebropro_bootstrap_content
+theme: takebropro_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

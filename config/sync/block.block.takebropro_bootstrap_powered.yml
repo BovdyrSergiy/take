@@ -1,0 +1,22 @@
+uuid: 94872fbb-3d67-413d-bc3a-20893944bc25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: takebropro_bootstrap_powered
+theme: takebropro_bootstrap
+region: top_header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: e98f0426-1284-498c-bd33-5062cf1b1552
+langcode: en
+status: true
+dependencies:
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: takebropro_bootstrap_page_title
+theme: takebropro_bootstrap
+region: top_header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

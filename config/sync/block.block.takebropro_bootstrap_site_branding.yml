@@ -1,0 +1,25 @@
+uuid: 30124314-9bf1-4787-ac21-dd5c30ddb17d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: takebropro_bootstrap_site_branding
+theme: takebropro_bootstrap
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

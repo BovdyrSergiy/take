@@ -1,0 +1,23 @@
+uuid: 58ba3a11-8fcc-4c7e-b680-1dfb1862d638
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: takebropro_bootstrap_syndicate
+theme: takebropro_bootstrap
+region: top_header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

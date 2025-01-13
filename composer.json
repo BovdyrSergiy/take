@@ -28,6 +28,7 @@
         "drupal/blazy": "^3.0",
         "drupal/blazy_photoswipe": "^2.0",
         "drupal/block_class": "^4.0",
+        "drupal/bootstrap": "^5.0",
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/easy_breadcrumb": "^2.0",

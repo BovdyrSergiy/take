@@ -1,0 +1,22 @@
+uuid: e47e2938-ebe8-4840-8c43-7d86d1903d07
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - takebropro_bootstrap
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: takebropro_bootstrap_help
+theme: takebropro_bootstrap
+region: top_header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
