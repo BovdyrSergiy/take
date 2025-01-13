@@ -1,0 +1,20 @@
+uuid: 4c9811b0-b9e4-4f1f-ba40-1fce4fa2f8a6
+langcode: bg
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - takebropro
+id: takebropro_prevklyuchvatelnaezici
+theme: takebropro
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Превключвател на езици'
+  label_display: '0'
+  provider: language
+visibility: {  }
