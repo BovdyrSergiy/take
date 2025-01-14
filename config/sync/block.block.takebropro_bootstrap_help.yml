@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: takebropro_bootstrap_help
 theme: takebropro_bootstrap
-region: top_header
-weight: 0
+region: highlighted
+weight: -3
 provider: null
 plugin: help_block
 settings:

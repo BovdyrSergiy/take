@@ -12,7 +12,7 @@ _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: takebropro_bootstrap_account_menu
 theme: takebropro_bootstrap
-region: secondary_menu
+region: header
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'

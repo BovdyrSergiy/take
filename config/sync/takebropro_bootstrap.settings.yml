@@ -7,7 +7,7 @@ logo:
   use_default: 1
 favicon:
   use_default: 1
-bootstrap_source: '0'
+bootstrap_source: bootstrap/bootswatch_cerulean
 bootstrap_enable_color: 0
 bootstrap_system_messages: ''
 bootstrap_table_style: ''
@@ -121,6 +121,6 @@ bootstrap_navbar_affix: 0
 bootstrap_sidebar_first_affix: 0
 bootstrap_sidebar_second_affix: 0
 bootstrap_scroll_spy: ''
-bootstrap_google_fonts: ''
+bootstrap_google_fonts: roboto
 bootstrap_bootstrap_icons: 0
 bootstrap_icons: ''

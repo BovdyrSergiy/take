@@ -9,7 +9,7 @@ _core:
 id: takebropro_bootstrap_secondary_local_tasks
 theme: takebropro_bootstrap
 region: highlighted
-weight: -2
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

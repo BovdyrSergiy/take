@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: takebropro_bootstrap_powered
 theme: takebropro_bootstrap
-region: top_header
-weight: 0
+region: footer_fifth
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:
