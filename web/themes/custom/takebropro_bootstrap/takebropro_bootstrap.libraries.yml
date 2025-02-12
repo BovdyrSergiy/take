@@ -6,9 +6,10 @@ global-styling:
     component:
       css/style.css: { weight: 100 }
       css/colors.css: { weight: 99 }
-      css/app.css: { weight: 98 }
-      css/custom.css: { weight: 97 }
-      css/theme.css: { weight: 96 }
+      css/theme.css: { weight: 98 }  # Только для разработки. Только для изменений уже добавленых стилей
+      css/custom.css: { weight: 97 } # Только для разработки. Новые стили добалять тут
+      # css/all.css: { weight: 96 }  # Этот файл в продакшине включить. В нем нет должно быть ничего лишнего
+
 
 bootstrap:
   js:
@@ -16,7 +17,7 @@ bootstrap:
     /libraries/bootstrap/dist/js/bootstrap.min.js: { weight: -20 }
   css:
     component:
-      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+      # /libraries/bootstrap/dist/css/bootstrap.min.css: {}
   dependencies:
     - core/popperjs
 color.preview:
